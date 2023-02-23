@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* jack_bauer - Check 
+* jack_bauer - Check
 * Description: function prints every minute in one day
 * Return: Nothing
 */
