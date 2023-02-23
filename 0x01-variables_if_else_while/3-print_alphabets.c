@@ -10,6 +10,7 @@
 int main(void)
 {
 	int alph;
+	
 	for (alph = 97; alph <= 122; alph++)
 	{
 		putchar(alph);
