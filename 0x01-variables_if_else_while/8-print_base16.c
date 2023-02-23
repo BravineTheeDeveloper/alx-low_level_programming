@@ -17,7 +17,7 @@ for (n = 48; n <= 57; n++)
 {
 putchar(n);
 }
-for (hex = 'a'; ch <= 'f'; hex++)
+for (hex = 'a'; hex <= 'f'; hex++)
 {
 putchar(hex);
 }
