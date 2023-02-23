@@ -6,10 +6,10 @@
 */
 int main(void)
 {
-int ch;
-for (ch = 'z'; ch >= 'a'; ch--)
+int alph;
+for (alph = 'z'; alph >= 'a'; alph--)
 {
-putchar(ch);
+putchar(alph);
 }
 putchar(10);
 return (0);
