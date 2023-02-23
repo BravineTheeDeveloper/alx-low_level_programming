@@ -7,13 +7,13 @@ int main(void)
 {
 char alpha;
 
-    for (alph = 'a'; alph <= 'z'; alph++)
-    {
-    if (alph != 'q' && alph != 'e')
-    {
-        putchar(alph);
-    }
-    }
-    putchar(10); /* a line for ascii code for the new line*/
-    return (0);
+for (alph = 'a'; alph <= 'z'; alph++)
+{
+if (alph != 'q' && alph != 'e')
+{
+putchar(alph);
+}
+}
+putchar(10); /* a line for ascii code for the new line*/
+return (0);
 }
