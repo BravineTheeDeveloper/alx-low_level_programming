@@ -5,13 +5,13 @@
 */
 int main(void)
 {
-char alph;
+char alpha;
 
-for (alph = 'a'; alph <= 'z'; alph++)
+for (alpha = 'a'; alpha <= 'z'; alpha++)
 {
-if (alph != 'q' && alph != 'e')
+if (alpha != 'q' && alpha != 'e')
 {
-    putchar(alph);
+putchar(alpha);
 }
 }
 putchar(10); /* a line for ascii code for the new line*/
