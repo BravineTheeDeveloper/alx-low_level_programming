@@ -1,6 +1,7 @@
 #include "main.h"
 
 /**
+ * A program to print the reverse of a string
  * rev_string - Reverses a string.
  * @s: The string to be reversed.
  */
