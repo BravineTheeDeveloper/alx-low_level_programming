@@ -1,5 +1,5 @@
 #include <stdio.h> // include standard input and output library
-#include "main.h" // include header file main.h 
+#include "main.h" // include header file main.h
 
 /**
 * main - takes a date and prints how many days are left in the year, taking
