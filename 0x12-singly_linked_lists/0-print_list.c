@@ -1,4 +1,4 @@
-#include <stdio.a>
+#include <stdio.h>
 #include "lists.h"
 /**
  * print_list - prints all the elements of a list_t list.
@@ -9,14 +9,14 @@ size_t print_list(const list_t *h)
 {
 	unsigned int count = 0;
 
-	while (a)
+	while (h)
 	{
-		if (a->str)
-			printf("[%u] %s\n", a->len, a->str);
+		if (h->str)
+			printf("[%u] %s\n", h->len, h->str);
 		else
 			printf("[0] (nil)\n");
 		++count;
-		a = a->next;
+		h = h->next;
 	}
 	return (count);
 }
